@@ -1,9 +1,9 @@
 public class BmiService {
-    public double calculate(double v, double r){
+    public double calculate(double ves, double rostM){
         double result;
-        double nr = r / 100;//
+        double rost = rostM / 100;//
 
-        result = v / nr / nr;
+        result = ves / rost / rost;
         return result;
     }
 
